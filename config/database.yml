@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  database: user_development
+  host: localhost
+  username: root
+  password: mysql123
+  encoding: utf8
+  pool: 5
+  socket: /tmp/mysql.sock
