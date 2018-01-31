@@ -11,3 +11,8 @@ gem "sinatra"
 gem 'sinatra-activerecord'
 gem 'rake'
 gem 'sinatra-contrib'
+gem 'rspec'
+gem 'rack-test'
+gem 'factory_bot'
+gem 'json'
+

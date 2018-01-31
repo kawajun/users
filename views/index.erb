@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <mata charset="utf-8">
+  <title>sinatra</title>
+</head>
+<body>
+  <h1>ユーザ一覧</h1>
+<table>
+  <tr>
+    <th>名前</th>
+    <th>e-mail</th>
+    <th>誕生日</th>
+  </tr>
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= user.email %></td>
+    <td><%= user.birthday %></td>
+  </tr>  
+</table>
+<% end  %>
+</body>
+</html>
